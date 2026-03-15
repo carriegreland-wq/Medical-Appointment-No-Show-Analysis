@@ -94,5 +94,5 @@ efforts toward high-risk patient groups.
 ---
 
 ## Author
-**[Your Name]**  
+**Carrie Greland**  
 [LinkedIn Profile URL] | [GitHub Profile URL]
