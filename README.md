@@ -1,6 +1,6 @@
-## Medical Appointment No-Show Analysis
+# Medical Appointment No-Show Analysis
 
-Exploratory data analysis of medical appointment no-shows using SQL/Python
+*Exploratory data analysis of medical appointment no-shows using SQL and Python*
 
 ## Project Overview
 Missed medical appointments create scheduling inefficiencies, reduce clinic 
