@@ -53,11 +53,6 @@ higher-risk patients rather than causing missed appointments.
 No-show rates were higher among younger adults compared to older patients. 
 Older patients tend to attend scheduled appointments more consistently.
 
-### 4. Neighborhood Differences Exist
-Some neighborhoods show significantly higher no-show rates than others, 
-suggesting geographic or socioeconomic factors may influence appointment 
-attendance.
-
 ---
 
 ## Operational Recommendations
