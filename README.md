@@ -1,5 +1,7 @@
 # Healthcare Appointment No-Show Analysis
 Exploratory data analysis of medical appointment no-shows using SQL, Python, and Tableau.
+<img width="1769" height="779" alt="Healthcare Appointment No-Show Analysis Dashboard" src="https://github.com/user-attachments/assets/7e8e7b34-f28f-44e6-a7de-7ea6f9b5be75" />
+
 
 ## Project Overview
 Missed medical appointments are a significant operational challenge in healthcare systems. No-shows can disrupt provider schedules, reduce clinic efficiency, and delay care for other patients.
@@ -47,7 +49,7 @@ The dashboard highlights:
 - Key insights derived from the analysis
 
 **View the interactive dashboard here:**  
-[Insert Tableau Public Link]
+https://public.tableau.com/views/AppointmentNo-Shows_17736818622230/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Key Findings
 
