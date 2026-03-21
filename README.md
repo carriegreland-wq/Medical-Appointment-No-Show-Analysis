@@ -1,5 +1,5 @@
 # Healthcare Appointment No-Show Analysis
-Exploratory data analysis of medical appointment no-shows using SQL, Python, and Tableau.
+Exploratory data analysis of medical appointment no-shows using
 ![Python](https://img.shields.io/badge/Python-Data%20Analysis-blue)
 ![SQL](https://img.shields.io/badge/SQL-BigQuery-informational)
 ![Tableau](https://img.shields.io/badge/Tableau-Dashboard-orange)
