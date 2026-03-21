@@ -74,12 +74,6 @@ dataset. This likely indicates that reminders are sent to patients already
 considered high risk. Further analysis could evaluate whether reminder 
 timing or messaging affects attendance.
 
-### 4. Identify Community Barriers to Care
-Some neighborhoods demonstrated higher no-show rates. This may reflect 
-transportation barriers, work schedule conflicts, or other socioeconomic 
-factors. Healthcare providers may benefit from community outreach or 
-flexible scheduling options in these areas.
-
 ---
 
 ## Project Structure
