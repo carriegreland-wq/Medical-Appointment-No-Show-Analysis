@@ -1,115 +1,98 @@
-# Medical Appointment No-Show Analysis
-*Exploratory data analysis of medical appointment no-shows using SQL and Python*
+# Healthcare Appointment No-Show Analysis
+Exploratory data analysis of medical appointment no-shows using SQL, Python, and Tableau.
 
 ## Project Overview
-In clinical scheduling environments, missed appointments can disrupt provider 
-schedules, reduce clinic productivity, and delay care for other patients. 
-This project analyzes patient appointment data to identify factors associated 
-with higher no-show rates.
+Missed medical appointments are a significant operational challenge in healthcare systems. No-shows can disrupt provider schedules, reduce clinic efficiency, and delay care for other patients.
 
-Data was analyzed using SQL in Google BigQuery and Python in Google Colab.
+This project analyzes patterns in medical appointment attendance to identify factors associated with higher no-show rates. The goal is to uncover insights that healthcare organizations could use to improve scheduling practices and patient outreach strategies.
 
----
+The analysis was conducted using SQL in Google BigQuery and Python in Google Colab, with results presented in an interactive Tableau dashboard.
 
 ## Dataset
-- **Source:** [Kaggle - Medical Appointment No Shows](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
-- **Records:** ~110,000 medical appointments in Brazil
-- **Features include:** Patient age, gender, neighborhood, scholarship status, 
-  chronic conditions, SMS reminder received, and whether the patient showed up
+**Source:** Kaggle – Medical Appointment No Shows Dataset  
+**Records:** ~110,000 medical appointments in Brazil  
 
----
+Key features include:
+- Patient age
+- Gender
+- Neighborhood
+- Scholarship status
+- Chronic conditions
+- SMS reminder received
+- Appointment attendance (show / no-show)
 
-## Objectives
-- Identify demographic and scheduling factors associated with higher no-show rates
-- Evaluate the effectiveness of SMS reminders on appointment attendance
-- Generate insights that could inform patient outreach strategies
-
----
+## Project Objectives
+- Identify demographic and scheduling factors associated with missed appointments
+- Analyze how appointment lead time impacts no-show rates
+- Evaluate the impact of SMS reminders on attendance
+- Create a dashboard to communicate key insights
 
 ## Tools Used
+
 | Tool | Purpose |
 |------|---------|
 | SQL (Google BigQuery) | Data querying and aggregation |
-| Python (Google Colab) | Data analysis and visualization |
+| Python (Google Colab) | Data analysis |
 | Pandas | Data manipulation |
 | Matplotlib | Data visualization |
+| Tableau Public | Interactive dashboard and data storytelling |
 
----
+## Tableau Dashboard
+An interactive dashboard was created in Tableau to visualize the key patterns discovered during the analysis.
+
+The dashboard highlights:
+- How appointment lead time influences no-show rates
+- Differences in attendance across age groups
+- The relationship between SMS reminders and missed appointments
+- Key insights derived from the analysis
+
+**View the interactive dashboard here:**  
+[Insert Tableau Public Link]
 
 ## Key Findings
 
 ### 1. Lead Time Strongly Influences No-Shows
-Appointments scheduled further in advance tend to have higher no-show rates. 
-As the number of days between scheduling and the appointment date increases, 
-patients are more likely to miss their appointments.
+Appointments scheduled further in advance tend to have higher no-show rates. As the number of days between scheduling and the appointment date increases, patients are more likely to miss their appointments.
 
-### 2. SMS Reminders Do Not Reduce No-Shows
-Surprisingly, patients who received SMS reminders had a higher no-show rate 
-than those who did not. This likely reflects that reminders are sent to 
-higher-risk patients rather than causing missed appointments.
+### 2. SMS Reminders Show Higher No-Show Rates
+Patients who received SMS reminders showed higher no-show rates than those who did not. This likely reflects that reminders are targeted toward patients already considered at higher risk of missing appointments.
 
 ### 3. Younger Patients Miss More Appointments
-No-show rates were higher among younger adults compared to older patients. 
-Older patients tend to attend scheduled appointments more consistently.
-
----
+No-show rates were higher among younger adults compared to older patients. Older patients tend to attend scheduled appointments more consistently.
 
 ## Operational Recommendations
 
-### 1. Reduce Long Scheduling Lead Times
-Analysis showed that appointments scheduled further in advance have higher 
-no-show rates. Clinics may reduce missed visits by limiting long scheduling 
-gaps when possible or by implementing additional reminders for appointments 
-booked far in advance.
+### Reduce Long Scheduling Lead Times
+Appointments scheduled far in advance were associated with higher no-show rates. Healthcare organizations may reduce missed visits by minimizing long scheduling gaps when possible.
 
-### 2. Target High-Risk Patient Groups
-Younger adult patients showed higher missed appointment rates. Healthcare 
-organizations could improve attendance through targeted reminder strategies 
-such as text messages or digital notifications.
+### Target High-Risk Patient Groups
+Younger patients showed higher no-show rates. Targeted reminder strategies and engagement efforts could help improve attendance among these groups.
 
-### 3. Review Effectiveness of SMS Reminder Strategy
-Patients who received SMS reminders showed higher no-show rates in the 
-dataset. This likely indicates that reminders are sent to patients already 
-considered high risk. Further analysis could evaluate whether reminder 
-timing or messaging affects attendance.
-
----
+### Evaluate SMS Reminder Strategies
+SMS reminders may be targeted toward higher-risk patients. Future analysis could examine whether the timing or content of reminders influences attendance.
 
 ## Project Structure
-```
-healthcare-appointment-noshow-analysis/
+healthcare-appointment-no-show-analysis/
 │
 ├── README.md
-├── appointment_noshow_analysis.ipynb   # Main analysis notebook (Google Colab)
-└── data/
-    └── KaggleV2-May-2016.csv           # Source dataset (download from Kaggle)
-```
+├── appointment_noshow_analysis.ipynb
+├── data/
+│   └── KaggleV2-May-2016.csv
 
----
+## How to Run the Project
 
-## How to Run
-1. Download the dataset from [Kaggle](https://www.kaggle.com/datasets/joniarroba/noshowappointments)
-2. Open `appointment_noshow_analysis.ipynb` in Google Colab or Jupyter Notebook
-3. Upload the dataset file when prompted
-4. Run all cells in order
+1. Download the dataset from Kaggle  
+2. Open `appointment_noshow_analysis.ipynb` in Google Colab or Jupyter Notebook  
+3. Upload the dataset file when prompted  
+4. Run all cells in order  
 
----
-
-## Conclusion
-The analysis suggests that appointment scheduling practices and patient 
-demographics influence attendance patterns. Healthcare providers may reduce 
-missed appointments by improving reminder strategies and targeting outreach 
-efforts toward high-risk patient groups.
-
----
-
-## Future Work
-- Build a predictive model to flag high-risk no-show appointments
-- Analyze whether combining SMS with other reminder types improves attendance
-- Explore time-of-day and day-of-week patterns in no-show behavior
-
----
+## Future Improvements
+- Build a predictive model to identify high-risk no-show appointments
+- Explore additional reminder strategies and timing
+- Analyze appointment patterns by day of week and time of day
+- Expand the dashboard with additional operational metrics
 
 ## Author
-**Carrie Greland**  
-[LinkedIn Profile URL] | [GitHub Profile URL]
+Carrie Greland  
+[LinkedIn Profile URL]  
+[GitHub Profile URL]
