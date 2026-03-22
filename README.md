@@ -103,6 +103,10 @@ healthcare-appointment-no-show-analysis/
 - Analyze appointment patterns by day of week and time of day
 - Expand the dashboard with additional operational metrics
 
+- ## Dataset License
+- Dataset:
+  The dataset used in this project is sourced from Kaggle and is made available under the CC0: Public Domain license.
+
 ## Author
 Carrie Greland  
 https://www.linkedin.com/in/carrie-greland-53397b73/
