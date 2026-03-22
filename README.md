@@ -56,7 +56,7 @@ The dashboard highlights:
 - Key insights derived from the analysis
 
 **View the interactive dashboard here:**  
-https://public.tableau.com/views/AppointmentNo-Shows_17736818622230/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+https://public.tableau.com/views/HealthcareAppointmentNo-ShowAnalysis_17740416727200/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
 
 ## Key Findings
 
